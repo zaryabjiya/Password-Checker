@@ -12,14 +12,14 @@ st.markdown("""
     }
     .stTextInput > div > div > input {
         background: rgba(255, 255, 255, 0.1);
-        color: white;
+        color: black;
         border: 1px solid #FF9800;
         border-radius: 10px;
         padding: 10px;
     }
     .stButton button {
         background-color: #FF9800;
-        color: white;
+        color: black;
         font-size: 18px;
         border-radius: 10px;
         padding: 10px;
