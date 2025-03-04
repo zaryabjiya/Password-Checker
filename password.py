@@ -6,26 +6,26 @@ st.set_page_config(page_title="Password Security Analyzer", page_icon="🔑", la
 st.markdown("""
 <style>
     body {
-        background-color: #1E1EE5;
+        background-color: #009688;
         color: white;
         text-align: center;
     }
     .stTextInput > div > div > input {
         background: rgba(255, 255, 255, 0.1);
-        color: black;
+        color: white;
         border: 1px solid #FF9800;
         border-radius: 10px;
         padding: 10px;
     }
     .stButton button {
-        background-color: #EE9800;
-        color: black;
+        background-color: #26A69A;
+        color: white;
         font-size: 18px;
         border-radius: 10px;
         padding: 10px;
     }
     .stButton button:hover {
-        background-color: #EE5722;
+        background-color: #00897B;
     }
     .stExpander {
         background: rgba(255, 255, 255, 0.1);
