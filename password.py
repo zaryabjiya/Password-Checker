@@ -6,7 +6,7 @@ st.set_page_config(page_title="Password Security Analyzer", page_icon="🔑", la
 st.markdown("""
 <style>
     body {
-        background-color: #1E1E1E;
+        background-color: #1E1EE5;
         color: white;
         text-align: center;
     }
@@ -18,14 +18,14 @@ st.markdown("""
         padding: 10px;
     }
     .stButton button {
-        background-color: #FF9800;
+        background-color: #EE9800;
         color: black;
         font-size: 18px;
         border-radius: 10px;
         padding: 10px;
     }
     .stButton button:hover {
-        background-color: #FF5722;
+        background-color: #EE5722;
     }
     .stExpander {
         background: rgba(255, 255, 255, 0.1);
