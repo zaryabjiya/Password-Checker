@@ -12,7 +12,7 @@ st.markdown("""
         font-family: 'Arial', sans-serif;
     }
     .stTextInput > div > div > input {
-        background: black;
+        background: white;
         color: #333;
         border: 2px solid #6A5ACD;
         border-radius: 10px;
