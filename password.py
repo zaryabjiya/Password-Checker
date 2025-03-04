@@ -6,31 +6,37 @@ st.set_page_config(page_title="Password Security Analyzer", page_icon="🔑", la
 st.markdown("""
 <style>
     body {
-        background-color: #121212;
+        background-color: #1E1E1E;
         color: white;
         text-align: center;
     }
     .stTextInput > div > div > input {
         background: rgba(255, 255, 255, 0.1);
         color: white;
-        border: 1px solid #00AEEF;
+        border: 1px solid #FF9800;
         border-radius: 10px;
         padding: 10px;
     }
     .stButton button {
-        background-color: #00AEEF;
+        background-color: #FF9800;
         color: white;
         font-size: 18px;
         border-radius: 10px;
         padding: 10px;
     }
     .stButton button:hover {
-        background-color: #39FF14;
+        background-color: #FF5722;
     }
     .stExpander {
         background: rgba(255, 255, 255, 0.1);
-        border: 1px solid #00AEEF;
+        border: 1px solid #FF9800;
         border-radius: 10px;
+    }
+    .footer {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 14px;
+        color: #BBBBBB;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -82,4 +88,4 @@ if st.button("Check Strength"):
     else:
         st.warning("⚠️ Please enter a password first!")
 
-
+st.markdown("<div class='footer'>Developed by Zaryab Irfan 🚀</div>", unsafe_allow_html=True)
