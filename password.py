@@ -12,7 +12,7 @@ st.markdown("""
         font-family: 'Arial', sans-serif;
     }
     .stTextInput > div > div > input {
-        background: white;
+        background: black;
         color: #333;
         border: 2px solid #6A5ACD;
         border-radius: 10px;
@@ -21,7 +21,7 @@ st.markdown("""
     }
     .stButton button {
         background-color: #6A5ACD;
-        color: white;
+        color: black;
         font-size: 18px;
         border-radius: 10px;
         padding: 12px 20px;
@@ -32,7 +32,7 @@ st.markdown("""
         background-color: #483D8B;
     }
     .stExpander {
-        background: white;
+        background: black;
         border: 2px solid #6A5ACD;
         border-radius: 10px;
         padding: 10px;
