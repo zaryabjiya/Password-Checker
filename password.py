@@ -1,42 +1,51 @@
 import re
 import streamlit as st
 
-st.set_page_config(page_title="Password Security Analyzer", page_icon="🔑", layout="centered")
+st.set_page_config(page_title="Password Security Analyzer", page_icon="🔐", layout="centered")
 
 st.markdown("""
 <style>
     body {
         background-color: #E6E6FA;
-        color: black;
+        color: #333;
         text-align: center;
+        font-family: 'Arial', sans-serif;
     }
     .stTextInput > div > div > input {
-        background: rgba(255, 255, 255, 0.1);
-        color: black;
-        border: 1px solid #FF9800;
+        background: white;
+        color: #333;
+        border: 2px solid #6A5ACD;
         border-radius: 10px;
-        padding: 10px;
+        padding: 12px;
+        font-size: 16px;
     }
     .stButton button {
-        background-color: #9370DB;
-        color: black;
+        background-color: #6A5ACD;
+        color: white;
         font-size: 18px;
         border-radius: 10px;
-        padding: 10px;
+        padding: 12px 20px;
+        border: none;
+        transition: 0.3s;
     }
     .stButton button:hover {
-        background-color: #7B68EE;
+        background-color: #483D8B;
     }
     .stExpander {
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid #FF9800;
+        background: white;
+        border: 2px solid #6A5ACD;
         border-radius: 10px;
+        padding: 10px;
     }
     .footer {
         margin-top: 50px;
         text-align: center;
         font-size: 14px;
-        color: #BBBBBB;
+        color: #444;
+        font-weight: bold;
+        padding: 10px;
+        background: #D8BFD8;
+        border-radius: 5px;
     }
 </style>
 """, unsafe_allow_html=True)
