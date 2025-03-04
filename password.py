@@ -6,22 +6,22 @@ st.set_page_config(page_title="Password Security Analyzer", page_icon="🔐", la
 st.markdown("""
 <style>
     body {
-        background-color: #121212;
-        color: #E0E0E0;
+        background-color: #E6E6FA;
+        color: #333;
         text-align: center;
         font-family: 'Arial', sans-serif;
     }
     .stTextInput > div > div > input {
-        background: #1E1E1E;
-        color: #E0E0E0;
-        border: 2px solid #BB86FC;
+        background: white;
+        color: #333;
+        border: 2px solid #6A5ACD;
         border-radius: 10px;
         padding: 12px;
         font-size: 16px;
     }
     .stButton button {
-        background-color: #BB86FC;
-        color: #121212;
+        background-color: #6A5ACD;
+        color: white;
         font-size: 18px;
         border-radius: 10px;
         padding: 12px 20px;
@@ -29,23 +29,22 @@ st.markdown("""
         transition: 0.3s;
     }
     .stButton button:hover {
-        background-color: #985EFF;
+        background-color: #483D8B;
     }
     .stExpander {
-        background: #1E1E1E;
-        border: 2px solid #BB86FC;
+        background: white;
+        border: 2px solid #6A5ACD;
         border-radius: 10px;
         padding: 10px;
-        color: #E0E0E0;
     }
     .footer {
         margin-top: 50px;
         text-align: center;
         font-size: 14px;
-        color: #BBBBBB;
+        color: #444;
         font-weight: bold;
         padding: 10px;
-        background: #1E1E1E;
+        background: #D8BFD8;
         border-radius: 5px;
     }
 </style>
